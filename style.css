@@ -1,3 +1,117 @@
-html{
-    background-color: red;
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+#clock{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border: 20px solid blueviolet;
+    border-radius: 50%;
+}
+
+.hour-hand {
+    width: 5px;
+    height: 100px;
+    background-color: rgb(143, 43, 97);
+    position: absolute;
+    left: 225px;
+    bottom: 225px;
+}
+
+.minute-hand {
+    width: 5px;
+    height: 150px;
+    background-color: rgb(43, 143, 97);
+    position: absolute;
+    left: 225px;
+    bottom: 225px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 120px;
+    background-color: rgb(43, 43, 197);
+    position: absolute;
+    left: 225px;
+    bottom: 225px;
+}
+
+.center{
+    width: 1px;
+    height: 1px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 225px;
+    bottom: 225px;
+}
+
+.num{
+    position: absolute;
+}
+
+.no-1{
+    right: 112.5px;
+    top: 30.14px;
+}
+
+.no-2{
+    top: 112.5px;
+    right: 30.14px;
+}
+
+.no-3{
+    right: 0;
+    bottom: 210px;
+}
+
+.no-4{
+    bottom: 112.5px;
+    right: 30.14px;
+}
+
+.no-5{
+    bottom: 30.14px;
+    right: 112.5px;
+}
+
+.no-6{
+    left: 210px;
+    bottom: 0;
+}
+
+.no-7{
+    bottom: 30.14px;
+    left: 112.5px;
+}
+
+.no-8{
+    bottom: 112.5px;
+    left: 30.14px;
+}
+
+.no-9{
+    left: 0;
+    bottom: 210px;
+}
+
+.no-10{
+    top: 112.5px;
+    left: 30.14px;
+}
+
+.no-11{
+    top: 30.14px;
+    left: 112.5px;
+}
+
+.no-12{
+    left: 210px;
+    top: 0;
 }
