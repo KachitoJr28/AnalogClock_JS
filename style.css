@@ -17,8 +17,8 @@ html,body{
 
 .hour-hand {
     width: 5px;
-    height: 100px;
-    background-color: rgb(143, 43, 97);
+    height: 80px;
+    background-color: black;
     position: absolute;
     left: 225px;
     bottom: 225px;
@@ -28,8 +28,8 @@ html,body{
 
 .minute-hand {
     width: 5px;
-    height: 150px;
-    background-color: rgb(43, 143, 97);
+    height: 180px;
+    background-color: yellow;
     position: absolute;
     left: 225px;
     bottom: 225px;
@@ -38,9 +38,9 @@ html,body{
 }
 
 .second-hand {
-    width: 2px;
+    width: 5px;
     height: 120px;
-    background-color: rgb(43, 43, 197);
+    background-color: red;
     position: absolute;
     left: 225px;
     bottom: 225px;
