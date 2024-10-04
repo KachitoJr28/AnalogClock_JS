@@ -24,7 +24,7 @@ html,body{
     left: 225px;
     bottom: 225px;
     transform-origin: 50% 100%;
-    transition: transform 0.5s ease;
+    transition: transform 0s ease;
 }
 
 .minute-hand {
@@ -35,7 +35,7 @@ html,body{
     left: 225px;
     bottom: 225px;
     transform-origin: 50% 100%;
-    transition: transform 0.5s ease;
+    transition: transform 0s ease;
 }
 
 .second-hand {
@@ -46,17 +46,7 @@ html,body{
     left: 225px;
     bottom: 225px;
     transform-origin: 50% 100%;
-    transition: transform 0.5s ease;
-}
-
-.center{
-    width: 1px;
-    height: 1px;
-    border: 1px solid red;
-    border-radius: 50%;
-    position: absolute;
-    left: 225px;
-    bottom: 225px;
+    transition: transform 0s none;
 }
 
 .num{
@@ -121,4 +111,17 @@ html,body{
 .no-12{
     left: 210px;
     top: 0;
+}
+
+
+#digital>#dig-hour{
+    color: black;
+}
+
+#digital>#dig-min{
+    color: yellow;
+}
+
+#digital>#dig-sec{
+    color: red;
 }

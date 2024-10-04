@@ -41,7 +41,9 @@ let hourHand=document.getElementById("hour"),
     const min=String(time.getMinutes()).padStart(2,"0")
     const sec=String(time.getSeconds()).padStart(2,"0")
   
-    document.getElementById("digital").textContent=`${hour}:${min}:${sec}`
+    document.getElementById("dig-hour").textContent=`${hour}`
+    document.getElementById("dig-min").textContent=`${min}`
+    document.getElementById("dig-sec").textContent=`${sec}`
   }
   initClock()
   
